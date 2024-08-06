@@ -347,7 +347,7 @@ span {
 }
 
 .service-info p{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 500;
     max-height: 100px;
     margin: auto;
@@ -428,9 +428,9 @@ span {
 
 .contact form{
     max-width: 70rem;
-    margin: 1rem auto;
+    margin: 4rem auto;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
 }
 
 .contact form .input-box{
@@ -442,20 +442,41 @@ span {
 .contact form .input-box input,
 .contact form textarea{
     width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
+    padding: 5.5rem;
+    font-size: 5.6rem;
     color: var(--text-color);
     background: var(--bg-color);
     border-radius: 0.8rem;
     border: 2px solid var(--main-color);
-    margin: 1rem 0;
+    margin: 7rem 0;
     resize: none;
 }
 
 .contact form .btn{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
+.contact form a.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 4rem;
+    font-size: 2.6rem;
+    color: var(--text-color);
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin-right: 1rem; /* Adiciona espaçamento à direita do botão */
+    margin-bottom: 1rem; /* Adiciona espaçamento abaixo do botão */
+}
+
+.contact form a.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
+}
 .footer{
     position: relative;
     bottom: 0;
